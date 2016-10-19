@@ -166,6 +166,7 @@ bar {
 
 
 # pulse audio volume control
+# Make sure ou have pulseaudio-utils and xbacklight installed
 bindsym XF86AudioLowerVolume exec /usr/bin/pactl set-sink-volume 0 -- '-5%'
 bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume 0 -- '+5%'
 bindsym XF86AudioMute exec /usr/bin/pactl set-sink-volume 0 0
