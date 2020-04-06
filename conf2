@@ -181,5 +181,5 @@ bindsym $mod+Ctrl+greater move workspace to output right
 bindsym $mod+Ctrl+less move workspace to output left
 
 # switch audio output, use pacmd list-cards to check profiles
-bindsym $mod+Alt+greater pacmd set-card-profile 0 output:hdmi-stereo+input:analog-stereo 
-bindsym $mod+Alt+less pacmd set-card-profile 0 output:analog-stereo+input:analog-stereo
+bindsym $mod+Alt+greater exec pacmd set-card-profile 0 output:hdmi-stereo+input:analog-stereo 
+bindsym $mod+Alt+less exec pacmd set-card-profile 0 output:analog-stereo+input:analog-stereo
